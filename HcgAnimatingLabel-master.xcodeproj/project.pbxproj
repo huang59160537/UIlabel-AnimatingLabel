@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63DC98C61DF7FA970036BBCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DC98C51DF7FA970036BBCB /* main.m */; };
+		63DC98C91DF7FA970036BBCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DC98C81DF7FA970036BBCB /* AppDelegate.m */; };
+		63DC98CC1DF7FA970036BBCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DC98CB1DF7FA970036BBCB /* ViewController.m */; };
+		63DC98CF1DF7FA970036BBCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DC98CD1DF7FA970036BBCB /* Main.storyboard */; };
+		63DC98D11DF7FA970036BBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DC98D01DF7FA970036BBCB /* Assets.xcassets */; };
+		63DC98D41DF7FA970036BBCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DC98D21DF7FA970036BBCB /* LaunchScreen.storyboard */; };
+		63DC98DF1DF7FA970036BBCB /* HcgAnimatingLabel_masterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DC98DE1DF7FA970036BBCB /* HcgAnimatingLabel_masterTests.m */; };
+		63DC98EA1DF7FA970036BBCB /* HcgAnimatingLabel_masterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DC98E91DF7FA970036BBCB /* HcgAnimatingLabel_masterUITests.m */; };
+		63DC99011DF7FBA40036BBCB /* UILabel+animating.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DC99001DF7FBA40036BBCB /* UILabel+animating.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63DC98DB1DF7FA970036BBCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63DC98B91DF7FA970036BBCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63DC98C01DF7FA970036BBCB;
+			remoteInfo = "HcgAnimatingLabel-master";
+		};
+		63DC98E61DF7FA970036BBCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63DC98B91DF7FA970036BBCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63DC98C01DF7FA970036BBCB;
+			remoteInfo = "HcgAnimatingLabel-master";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63DC98C11DF7FA970036BBCB /* HcgAnimatingLabel-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HcgAnimatingLabel-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DC98C51DF7FA970036BBCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63DC98C71DF7FA970036BBCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63DC98C81DF7FA970036BBCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63DC98CA1DF7FA970036BBCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63DC98CB1DF7FA970036BBCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63DC98CE1DF7FA970036BBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63DC98D01DF7FA970036BBCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63DC98D31DF7FA970036BBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63DC98D51DF7FA970036BBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63DC98DA1DF7FA970036BBCB /* HcgAnimatingLabel-masterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HcgAnimatingLabel-masterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DC98DE1DF7FA970036BBCB /* HcgAnimatingLabel_masterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HcgAnimatingLabel_masterTests.m; sourceTree = "<group>"; };
+		63DC98E01DF7FA970036BBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63DC98E51DF7FA970036BBCB /* HcgAnimatingLabel-masterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HcgAnimatingLabel-masterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63DC98E91DF7FA970036BBCB /* HcgAnimatingLabel_masterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HcgAnimatingLabel_masterUITests.m; sourceTree = "<group>"; };
+		63DC98EB1DF7FA970036BBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63DC98FF1DF7FBA40036BBCB /* UILabel+animating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+animating.h"; sourceTree = "<group>"; };
+		63DC99001DF7FBA40036BBCB /* UILabel+animating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+animating.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63DC98BE1DF7FA970036BBCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DC98D71DF7FA970036BBCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DC98E21DF7FA970036BBCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63DC98B81DF7FA970036BBCB = {
+			isa = PBXGroup;
+			children = (
+				63DC98F71DF7FAB20036BBCB /* AnimatingLabel */,
+				63DC98C31DF7FA970036BBCB /* HcgAnimatingLabel-master */,
+				63DC98DD1DF7FA970036BBCB /* HcgAnimatingLabel-masterTests */,
+				63DC98E81DF7FA970036BBCB /* HcgAnimatingLabel-masterUITests */,
+				63DC98C21DF7FA970036BBCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63DC98C21DF7FA970036BBCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63DC98C11DF7FA970036BBCB /* HcgAnimatingLabel-master.app */,
+				63DC98DA1DF7FA970036BBCB /* HcgAnimatingLabel-masterTests.xctest */,
+				63DC98E51DF7FA970036BBCB /* HcgAnimatingLabel-masterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63DC98C31DF7FA970036BBCB /* HcgAnimatingLabel-master */ = {
+			isa = PBXGroup;
+			children = (
+				63DC98C71DF7FA970036BBCB /* AppDelegate.h */,
+				63DC98C81DF7FA970036BBCB /* AppDelegate.m */,
+				63DC98CA1DF7FA970036BBCB /* ViewController.h */,
+				63DC98CB1DF7FA970036BBCB /* ViewController.m */,
+				63DC98CD1DF7FA970036BBCB /* Main.storyboard */,
+				63DC98D01DF7FA970036BBCB /* Assets.xcassets */,
+				63DC98D21DF7FA970036BBCB /* LaunchScreen.storyboard */,
+				63DC98D51DF7FA970036BBCB /* Info.plist */,
+				63DC98C41DF7FA970036BBCB /* Supporting Files */,
+			);
+			path = "HcgAnimatingLabel-master";
+			sourceTree = "<group>";
+		};
+		63DC98C41DF7FA970036BBCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63DC98C51DF7FA970036BBCB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63DC98DD1DF7FA970036BBCB /* HcgAnimatingLabel-masterTests */ = {
+			isa = PBXGroup;
+			children = (
+				63DC98DE1DF7FA970036BBCB /* HcgAnimatingLabel_masterTests.m */,
+				63DC98E01DF7FA970036BBCB /* Info.plist */,
+			);
+			path = "HcgAnimatingLabel-masterTests";
+			sourceTree = "<group>";
+		};
+		63DC98E81DF7FA970036BBCB /* HcgAnimatingLabel-masterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63DC98E91DF7FA970036BBCB /* HcgAnimatingLabel_masterUITests.m */,
+				63DC98EB1DF7FA970036BBCB /* Info.plist */,
+			);
+			path = "HcgAnimatingLabel-masterUITests";
+			sourceTree = "<group>";
+		};
+		63DC98F71DF7FAB20036BBCB /* AnimatingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				63DC98FF1DF7FBA40036BBCB /* UILabel+animating.h */,
+				63DC99001DF7FBA40036BBCB /* UILabel+animating.m */,
+			);
+			name = AnimatingLabel;
+			path = "HcgAnimatingLabel-master/AnimatingLabel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63DC98C01DF7FA970036BBCB /* HcgAnimatingLabel-master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DC98EE1DF7FA970036BBCB /* Build configuration list for PBXNativeTarget "HcgAnimatingLabel-master" */;
+			buildPhases = (
+				63DC98BD1DF7FA970036BBCB /* Sources */,
+				63DC98BE1DF7FA970036BBCB /* Frameworks */,
+				63DC98BF1DF7FA970036BBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HcgAnimatingLabel-master";
+			productName = "HcgAnimatingLabel-master";
+			productReference = 63DC98C11DF7FA970036BBCB /* HcgAnimatingLabel-master.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63DC98D91DF7FA970036BBCB /* HcgAnimatingLabel-masterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DC98F11DF7FA970036BBCB /* Build configuration list for PBXNativeTarget "HcgAnimatingLabel-masterTests" */;
+			buildPhases = (
+				63DC98D61DF7FA970036BBCB /* Sources */,
+				63DC98D71DF7FA970036BBCB /* Frameworks */,
+				63DC98D81DF7FA970036BBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63DC98DC1DF7FA970036BBCB /* PBXTargetDependency */,
+			);
+			name = "HcgAnimatingLabel-masterTests";
+			productName = "HcgAnimatingLabel-masterTests";
+			productReference = 63DC98DA1DF7FA970036BBCB /* HcgAnimatingLabel-masterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63DC98E41DF7FA970036BBCB /* HcgAnimatingLabel-masterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DC98F41DF7FA970036BBCB /* Build configuration list for PBXNativeTarget "HcgAnimatingLabel-masterUITests" */;
+			buildPhases = (
+				63DC98E11DF7FA970036BBCB /* Sources */,
+				63DC98E21DF7FA970036BBCB /* Frameworks */,
+				63DC98E31DF7FA970036BBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63DC98E71DF7FA970036BBCB /* PBXTargetDependency */,
+			);
+			name = "HcgAnimatingLabel-masterUITests";
+			productName = "HcgAnimatingLabel-masterUITests";
+			productReference = 63DC98E51DF7FA970036BBCB /* HcgAnimatingLabel-masterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63DC98B91DF7FA970036BBCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = chedaoshanqian;
+				TargetAttributes = {
+					63DC98C01DF7FA970036BBCB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = APA6GZCPQK;
+						ProvisioningStyle = Automatic;
+					};
+					63DC98D91DF7FA970036BBCB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = APA6GZCPQK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 63DC98C01DF7FA970036BBCB;
+					};
+					63DC98E41DF7FA970036BBCB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = APA6GZCPQK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 63DC98C01DF7FA970036BBCB;
+					};
+				};
+			};
+			buildConfigurationList = 63DC98BC1DF7FA970036BBCB /* Build configuration list for PBXProject "HcgAnimatingLabel-master" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63DC98B81DF7FA970036BBCB;
+			productRefGroup = 63DC98C21DF7FA970036BBCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63DC98C01DF7FA970036BBCB /* HcgAnimatingLabel-master */,
+				63DC98D91DF7FA970036BBCB /* HcgAnimatingLabel-masterTests */,
+				63DC98E41DF7FA970036BBCB /* HcgAnimatingLabel-masterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63DC98BF1DF7FA970036BBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DC98D41DF7FA970036BBCB /* LaunchScreen.storyboard in Resources */,
+				63DC98D11DF7FA970036BBCB /* Assets.xcassets in Resources */,
+				63DC98CF1DF7FA970036BBCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DC98D81DF7FA970036BBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DC98E31DF7FA970036BBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63DC98BD1DF7FA970036BBCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DC98CC1DF7FA970036BBCB /* ViewController.m in Sources */,
+				63DC98C91DF7FA970036BBCB /* AppDelegate.m in Sources */,
+				63DC98C61DF7FA970036BBCB /* main.m in Sources */,
+				63DC99011DF7FBA40036BBCB /* UILabel+animating.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DC98D61DF7FA970036BBCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DC98DF1DF7FA970036BBCB /* HcgAnimatingLabel_masterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DC98E11DF7FA970036BBCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DC98EA1DF7FA970036BBCB /* HcgAnimatingLabel_masterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63DC98DC1DF7FA970036BBCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63DC98C01DF7FA970036BBCB /* HcgAnimatingLabel-master */;
+			targetProxy = 63DC98DB1DF7FA970036BBCB /* PBXContainerItemProxy */;
+		};
+		63DC98E71DF7FA970036BBCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63DC98C01DF7FA970036BBCB /* HcgAnimatingLabel-master */;
+			targetProxy = 63DC98E61DF7FA970036BBCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63DC98CD1DF7FA970036BBCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63DC98CE1DF7FA970036BBCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63DC98D21DF7FA970036BBCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63DC98D31DF7FA970036BBCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63DC98EC1DF7FA970036BBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63DC98ED1DF7FA970036BBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63DC98EF1DF7FA970036BBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = APA6GZCPQK;
+				INFOPLIST_FILE = "HcgAnimatingLabel-master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chedaoshanqian.HcgAnimatingLabel-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63DC98F01DF7FA970036BBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = APA6GZCPQK;
+				INFOPLIST_FILE = "HcgAnimatingLabel-master/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chedaoshanqian.HcgAnimatingLabel-master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63DC98F21DF7FA970036BBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = APA6GZCPQK;
+				INFOPLIST_FILE = "HcgAnimatingLabel-masterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chedaoshanqian.HcgAnimatingLabel-masterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HcgAnimatingLabel-master.app/HcgAnimatingLabel-master";
+			};
+			name = Debug;
+		};
+		63DC98F31DF7FA970036BBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = APA6GZCPQK;
+				INFOPLIST_FILE = "HcgAnimatingLabel-masterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chedaoshanqian.HcgAnimatingLabel-masterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HcgAnimatingLabel-master.app/HcgAnimatingLabel-master";
+			};
+			name = Release;
+		};
+		63DC98F51DF7FA970036BBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = APA6GZCPQK;
+				INFOPLIST_FILE = "HcgAnimatingLabel-masterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chedaoshanqian.HcgAnimatingLabel-masterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HcgAnimatingLabel-master";
+			};
+			name = Debug;
+		};
+		63DC98F61DF7FA970036BBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = APA6GZCPQK;
+				INFOPLIST_FILE = "HcgAnimatingLabel-masterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chedaoshanqian.HcgAnimatingLabel-masterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HcgAnimatingLabel-master";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63DC98BC1DF7FA970036BBCB /* Build configuration list for PBXProject "HcgAnimatingLabel-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DC98EC1DF7FA970036BBCB /* Debug */,
+				63DC98ED1DF7FA970036BBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63DC98EE1DF7FA970036BBCB /* Build configuration list for PBXNativeTarget "HcgAnimatingLabel-master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DC98EF1DF7FA970036BBCB /* Debug */,
+				63DC98F01DF7FA970036BBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63DC98F11DF7FA970036BBCB /* Build configuration list for PBXNativeTarget "HcgAnimatingLabel-masterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DC98F21DF7FA970036BBCB /* Debug */,
+				63DC98F31DF7FA970036BBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63DC98F41DF7FA970036BBCB /* Build configuration list for PBXNativeTarget "HcgAnimatingLabel-masterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63DC98F51DF7FA970036BBCB /* Debug */,
+				63DC98F61DF7FA970036BBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63DC98B91DF7FA970036BBCB /* Project object */;
+}
